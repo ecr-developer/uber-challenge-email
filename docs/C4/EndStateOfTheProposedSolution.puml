@@ -1,0 +1,48 @@
+@startuml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include <office/Servers/database_server>
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+
+!include DEVICONS/java.puml
+
+Title Container diagram for Email Service
+
+AddElementTag("microService", $shape=EightSidedShape(), $bgColor="CornflowerBlue", $fontColor="white", $legendText="micro service\neight sided")
+AddContainerTag("db", $shape=RoundedBoxShape(), $bgColor="lightSkyBlue", $sprite="database_server", $legendText="database container")
+AddRelTag("async", $textColor=$ARROW_FONT_COLOR, $lineColor=$ARROW_COLOR, $lineStyle=DashedLine())
+AddRelTag("sync", $textColor=$ARROW_FONT_COLOR, $lineColor=$ARROW_COLOR, $lineStyle=DottedLine())
+
+SHOW_PERSON_OUTLINE()
+
+Person(frontend, "Front-end", "Any interface that can make a request")
+Container(services, "Other Microservices", "techn", $tags="microService")
+
+System_Boundary(containers, "Kubernetes") {
+    Container(api_service, "API Service", "Java, Spring Boot", $tags = "microService", $sprite="java")
+    ContainerQueue(message_bus, "Message Bus", "RabbitMQ", "Transport for email events")
+    ContainerDb(nosql, "NoSQL Data Store", "MongoDB x.x.x", $tags="db")
+    Container(consumer, "Cosumer", "Java, Spring Boot", $tags = "microService", $sprite="java")
+}
+
+System_Ext(amazonSes, "Amazon SES")
+System_Ext(sendGrid, "Twilio SendGrid")
+
+Rel(frontend, api_service, "Uses", "async, JSON/HTTPS", $tags="async")
+Rel(services, api_service, "Uses", "async, JSON/HTTPS", $tags="async")
+
+Lay_R(message_bus, nosql)
+
+Rel_D(api_service, message_bus, "Exchange")
+Rel_D(api_service, nosql, "Insert email", "MongoDB wire protocol, port 27017")
+
+Rel_U(consumer, nosql, "Update to", "MongoDB wire protocol, port 27017")
+Rel_D(message_bus, consumer, "Queue")
+
+Lay_R(message_bus, nosql)
+
+Rel_D(consumer, amazonSes, "Sends e-mails using", "sync, SMTP", $tags="sync")
+Rel_D(consumer, sendGrid, "Sends e-mails using", "sync, SMTP", $tags="sync")
+
+SHOW_LEGEND()
+@enduml

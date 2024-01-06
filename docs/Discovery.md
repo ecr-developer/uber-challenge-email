@@ -8,7 +8,7 @@ In the challenge of coding with a focus on the back-end, there are a few points 
 
 ##  Table of Contents
 
-* [Uber Challenge Email](../README.md#table-of-contents)
+* [Email Microservice](../README.md#email-microservice---uber-code-challenge-for-back-end)
     * [Comments](../README.md#comments)
     * [Guides](../README.md#guides)
     * [Announcements](../README.md#announcements)
@@ -16,7 +16,8 @@ In the challenge of coding with a focus on the back-end, there are a few points 
 * Discovery
     * [Emails Provider](#emails-provider)
     * [Business Rules](#business-rules)
-* [Architecture](./Architecture.md)
+* [Architecture](./Architecture.md#architecture)
+    * [Design and architectural decisions](./Architecture.md#design-and-architectural-decisions)
 
 ## Emails Provider
 
