@@ -23,6 +23,7 @@ In the challenge of coding with a focus on the back-end, there are a few points 
         * [Clean Architecture](./Architecture.md#clean-architecture)
         * [Test Pyramid](./Architecture.md#test-pyramid)
     * [Tech Stack](./Architecture.md#tech-stack)
+    * [Standards and conventions](./Architecture.md#standards-and-conventions)
 
 ## Emails Provider
 

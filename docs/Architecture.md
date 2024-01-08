@@ -19,6 +19,7 @@ This section contains the suggested solution and all the architecture definition
         * [Clean Architecture](#clean-architecture)
         * [Test Pyramid](#test-pyramid)
     * [Tech Stack](#tech-stack)
+    * [Standards and conventions](#standards-and-conventions)
 
 
 ## Design and architectural decisions
@@ -135,3 +136,20 @@ The test automation pyramid captures the essence that each type of test becomes 
 9. [Git / GitHUB](https://github.com/ecr-developer/uber-challenge-email)
 10. [CI/CD - GitActions](https://docs.github.com/en/actions)
 11. [Sonar](https://www.sonarsource.com/open-source-editions/)
+
+## Standards and conventions
+
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)
+- [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- Repository - Here's a simplified overview of the process:
+
+    1. **Development Branch (main):**
+        * Ongoing development and new features are added to this branch;
+    2. **Release Branch (release/1.0.0):**
+        * Created from the development branch when preparing for a release;
+        * Bug fixes and final adjustments for the release are made on this branch;
+        * Testing is often conducted on this branch to ensure stability;
+    3. **Merge to Main:**
+        * When the release is ready, changes from the release branch will be merged back into the main branch, only accepted via Pull Request;
+    4. **Tagging the Release:**
+        * A tag may be created on the main branch to mark the specific commit that represents the release (v1.0.0);

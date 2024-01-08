@@ -42,6 +42,7 @@ Of the 4 challenges, I chose the **Email Service** focused on the back-end.
         * [Clean Architecture](./docs/Architecture.md#clean-architecture)
         * [Test Pyramid](./docs/Architecture.md#test-pyramid)
     * [Tech Stack](./docs/Architecture.md#tech-stack)
+    * [Standards and conventions](./docs/Architecture.md#standards-and-conventions)
 
 ## Guides
 
