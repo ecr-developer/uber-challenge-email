@@ -5,8 +5,8 @@ This section will contain all the mapped tasks
 [Ticket] Description                                  ==> Status (Ready for Developer / In progress / On Hold / Done)
 
 * [CHAP-100] Apply branch rules for CI                          ==> **Done**
-* [CHAP-101] Configuring the submodules of the base project     ==> **Ready for Developer**
-* [CHAP-102] Automating conventional commit validation          ==> **Ready for Developer**
+* [CHAP-101] Configuring the submodules of the base project     ==> **Done**
+* [CHAP-102] Automating conventional commit validation          ==> **In progress**
 * Email Entity
     * [CHAP-103] Creating the Email entity with TDD             ==> **Ready for Developer**
     * [CHAP-104] Implementing DDD classes                       ==> **Ready for Developer**
