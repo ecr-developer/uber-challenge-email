@@ -18,6 +18,9 @@ In the challenge of coding with a focus on the back-end, there are a few points 
     * [Business Rules](#business-rules)
 * [Architecture](./Architecture.md#architecture)
     * [Design and architectural decisions](./Architecture.md#design-and-architectural-decisions)
+    * [Features Presentation](./Architecture.md#features-presentation)
+        * [Strategic modeling with DDD](./Architecture.md#strategic-modeling-with-ddd-domain-driven-design)
+        * [Clean Architecture](./Architecture.md#clean-architecture)
 
 ## Emails Provider
 

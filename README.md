@@ -37,6 +37,9 @@ Of the 4 challenges, I chose the **Email Service** focused on the back-end.
     * [Business Rules](./docs/Discovery.md#business-rules)
 * [Architecture](./docs/Architecture.md#architecture)
     * [Design and architectural decisions](./docs/Architecture.md#design-and-architectural-decisions)
+    * [Features Presentation](./docs/Architecture.md#features-presentation)
+        * [Strategic modeling with DDD](./docs/Architecture.md#strategic-modeling-with-ddd-domain-driven-design)
+        * [Clean Architecture](./docs/Architecture.md#clean-architecture)
 
 ## Guides
 
