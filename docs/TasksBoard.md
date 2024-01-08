@@ -4,7 +4,7 @@ This section will contain all the mapped tasks
 
 [Ticket] Description                                  ==> Status (Ready for Developer / In progress / On Hold / Done)
 
-* [CHAP-100] Apply branch rules for CI                          ==> **In progress**
+* [CHAP-100] Apply branch rules for CI                          ==> **Done**
 * [CHAP-101] Configuring the submodules of the base project     ==> **Ready for Developer**
 * [CHAP-102] Automating conventional commit validation          ==> **Ready for Developer**
 * Email Entity
