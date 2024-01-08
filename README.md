@@ -43,6 +43,7 @@ Of the 4 challenges, I chose the **Email Service** focused on the back-end.
         * [Test Pyramid](./docs/Architecture.md#test-pyramid)
     * [Tech Stack](./docs/Architecture.md#tech-stack)
     * [Standards and conventions](./docs/Architecture.md#standards-and-conventions)
+* [Tasks Board](./docs/TasksBoard.md)
 
 ## Guides
 
@@ -84,6 +85,8 @@ Of the 4 challenges, I chose the **Email Service** focused on the back-end.
 1. CHAP - Challenge in abbreviation;
 2. XXX - Task number;
 3. Description - Task description that will be execute;
+
+* I'm not going to replicate all the stages, but for some of the stories that I consider important, I'm going to create a document similar to Sprint Planning, to help with the explanation.
 
 ## Announcements
 

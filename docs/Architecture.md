@@ -20,6 +20,7 @@ This section contains the suggested solution and all the architecture definition
         * [Test Pyramid](#test-pyramid)
     * [Tech Stack](#tech-stack)
     * [Standards and conventions](#standards-and-conventions)
+* [Tasks Board](./TasksBoard.md)
 
 
 ## Design and architectural decisions

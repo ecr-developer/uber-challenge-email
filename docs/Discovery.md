@@ -24,6 +24,7 @@ In the challenge of coding with a focus on the back-end, there are a few points 
         * [Test Pyramid](./Architecture.md#test-pyramid)
     * [Tech Stack](./Architecture.md#tech-stack)
     * [Standards and conventions](./Architecture.md#standards-and-conventions)
+* [Tasks Board](./TasksBoard.md)
 
 ## Emails Provider
 

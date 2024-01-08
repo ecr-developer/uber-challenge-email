@@ -8,3 +8,4 @@ All notable changes to this project will be documented in this file.
 - Features Presentation
 - Tech Stack information
 - Standards and conventions
+- Tasks board
