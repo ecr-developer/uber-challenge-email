@@ -6,3 +6,4 @@ All notable changes to this project will be documented in this file.
 - Initial documentation added
 - Initial architecture documentation added
 - Features Presentation added
+- Tech Stack information added

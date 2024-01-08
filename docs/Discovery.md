@@ -21,6 +21,8 @@ In the challenge of coding with a focus on the back-end, there are a few points 
     * [Features Presentation](./Architecture.md#features-presentation)
         * [Strategic modeling with DDD](./Architecture.md#strategic-modeling-with-ddd-domain-driven-design)
         * [Clean Architecture](./Architecture.md#clean-architecture)
+        * [Test Pyramid](./Architecture.md#test-pyramid)
+    * [Tech Stack](./Architecture.md#tech-stack)
 
 ## Emails Provider
 

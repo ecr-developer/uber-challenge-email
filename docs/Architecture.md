@@ -17,6 +17,8 @@ This section contains the suggested solution and all the architecture definition
     * [Features Presentation](#features-presentation)
         * [Strategic modeling with DDD](#strategic-modeling-with-ddd-domain-driven-design)
         * [Clean Architecture](#clean-architecture)
+        * [Test Pyramid](#test-pyramid)
+    * [Tech Stack](#tech-stack)
 
 
 ## Design and architectural decisions
@@ -119,3 +121,17 @@ The concept behind this is basically that we can receive and separate everything
 ![TestPyramid](./img/TestPyramid.png)
 
 The test automation pyramid captures the essence that each type of test becomes more costly the further up the pyramid we go. As a result, we want to have a large number of low costs tests and a small number of high cost tests.
+
+## Tech Stack
+
+1. [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML/tree/master)
+2. JDK 17
+3. IDE's (IntelliJ IDEA / Visual Studio Code)
+4. [Apache Maven 3.6.3](https://maven.apache.org/download.cgi)
+5. [Spring Boot](https://spring.io/projects/spring-boot/)
+6. [MongoDB](https://www.mongodb.com/)
+7. [Docker](https://www.docker.com/)
+8. RabbitMQ
+9. [Git / GitHUB](https://github.com/ecr-developer/uber-challenge-email)
+10. [CI/CD - GitActions](https://docs.github.com/en/actions)
+11. [Sonar](https://www.sonarsource.com/open-source-editions/)
