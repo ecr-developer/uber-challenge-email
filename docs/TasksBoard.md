@@ -6,9 +6,9 @@ This section will contain all the mapped tasks
 
 * [CHAP-100] Apply branch rules for CI                          ==> **Done**
 * [CHAP-101] Configuring the submodules of the base project     ==> **Done**
-* [CHAP-102] Automating conventional commit validation          ==> **In progress**
+* [[CHAP-102]](./Refinements/Chap102.md) Automating conventional commit validation          ==> **Done**
 * Email Entity
-    * [CHAP-103] Creating the Email entity with TDD             ==> **Ready for Developer**
+    * [CHAP-103] Creating the Email entity with TDD             ==> **In progress**
     * [CHAP-104] Implementing DDD classes                       ==> **Ready for Developer**
     * [CHAP-105] Making the Email class an AggregateRoot        ==> **Ready for Developer**
     * [CHAP-106] Refinement the business rules validations      ==> **Ready for Developer**
