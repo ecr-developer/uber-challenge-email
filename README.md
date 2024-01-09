@@ -1,12 +1,12 @@
 [![license MIT][License Badge]][License Page]
  &nbsp; &nbsp; &nbsp;
+ [![Basic validation](https://github.com/actions/setup-java/actions/workflows/basic-validation.yml/badge.svg?branch=main)](https://github.com/ecr-developer/uber-challenge-email/actions/workflows/ci.yml)
 [![commits since][Commits Since Badge]][Commit Page]
 [![last commit][Last Commit Badge]][Commit Page]
 
 
 [License Badge]: https://img.shields.io/github/license/ecr-developer/uber-challenge-email
 [License Page]: https://github.com/ecr-developer/uber-challenge-email/blob/main/LICENSE
-
 [Commits Since Badge]: https://img.shields.io/github/commits-since/ecr-developer/uber-challenge-email/latest?label=new%20unreleased%20changes
 [Last Commit Badge]: https://img.shields.io/github/last-commit/ecr-developer/uber-challenge-email?color=yellow
 [Commit Page]: https://github.com/ecr-developer/uber-challenge-email/commits
@@ -87,6 +87,7 @@ Of the 4 challenges, I chose the **Email Service** focused on the back-end.
 3. Description - Task description that will be execute;
 
 * I'm not going to replicate all the stages, but for some of the stories that I consider important, I'm going to create a document similar to Sprint Planning, to help with the explanation.
+* When refinements exist, the task number will be a link.
 
 ## Announcements
 
