@@ -1,4 +1,4 @@
-package dev.ecrodrigues.email.infrastructure.consumer;
+package dev.ecrodrigues.uber.infrastructure;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
@@ -10,4 +10,5 @@ public class MainTest {
     Assertions.assertNotNull(new Main());
     Main.main(new String[]{});
   }
+
 }
