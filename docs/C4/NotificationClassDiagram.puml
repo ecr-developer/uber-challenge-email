@@ -1,0 +1,26 @@
+@startuml
+class Validator {
+    #validationHandler: ValidationHandler [0..1]
+    +validate()
+    +validationHandler(): ValidationHandler
+}
+
+class EmailValidator {
+    #email: Email [0..1]
+    +validate()
+}
+
+class Notification {
+    #erros: List<Error>
+    +append(anError: Error): ValidationHandler
+    +append(aValidationHandler: ValidationHandler): ValidationHandler
+    +create(): Notification
+    +validate(aValidation: Validation): ValidationHandler
+}
+
+class Error
+
+Validator <|-down- EmailValidator
+Validator"0" -- "1"Notification : validationHandler
+Notification -down-> Error : erros [0..*]
+@enduml
