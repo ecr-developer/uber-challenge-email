@@ -28,6 +28,7 @@ make -f Makefile
 
 ## Below are all the references I used:
 
+* [Makefile Tutorial](https://makefiletutorial.com/#phony);
 * [Customizing Git - An Example Git-Enforced Policy](https://git-scm.com/book/en/v2/Customizing-Git-An-Example-Git-Enforced-Policy);
 * [Red Hat - Git hooks and remote Git repository integration](https://access.redhat.com/documentation/en-us/red_hat_decision_manager/7.8/html/configuring_business_central_settings_and_properties/managing-business-central-git-hooks-con);
-* [commitlint - It is specific to node and other javascript projects](https://github.com/conventional-changelog/commitlint/blob/master/README.md)
+* [commitlint - It is specific to node and other javascript projects](https://github.com/conventional-changelog/commitlint/blob/master/README.md);
