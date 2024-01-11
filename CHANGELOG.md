@@ -16,3 +16,4 @@ All notable changes to this project will be documented in this file.
 - [CHAP-102] Automating conventional commit validation [(#3)](https://github.com/ecr-developer/uber-challenge-email/pull/3)
 - [CHAP-103] Creating the Email entity with TDD [(#4)](https://github.com/ecr-developer/uber-challenge-email/pull/4)
 - [CHAP-104] Implementing DDD classes [(#5)](https://github.com/ecr-developer/uber-challenge-email/pull/5)
+- [CHAP-105] Making the Email class an AggregateRoot [(#6)](https://github.com/ecr-developer/uber-challenge-email/pull/6)

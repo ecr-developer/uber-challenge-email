@@ -10,8 +10,8 @@ This section will contain all the mapped tasks
 * Email Entity
     * [[CHAP-103]](./Refinements/Chap103.md) Creating the Email entity with TDD             ==> **Done**
     * [CHAP-104] Implementing DDD classes                       ==> **Done**
-    * [CHAP-105] Making the Email class an AggregateRoot        ==> **In progress**
-    * [CHAP-106] Refinement the business rules validations      ==> **Ready for Developer**
+    * [CHAP-105] Making the Email class an AggregateRoot        ==> **Done**
+    * [CHAP-106] Refinement the business rules validations      ==> **In progress**
     * [CHAP-107] Implementing the Email validator               ==> **Ready for Developer**
     * [CHAP-108] Refinement the exceptions                      ==> **Ready for Developer**
     * [CHAP-109] Implementing TDD validators                    ==> **Ready for Developer**
