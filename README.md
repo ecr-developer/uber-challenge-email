@@ -82,7 +82,7 @@ Of the 4 challenges, I chose the **Email Service** focused on the back-end.
 ```
 [CHAP-XXX] Description
 ```
-1. CHAP - Challenge in abbreviation;
+1. CHAP - (CHA) Challenge, (Personal);
 2. XXX - Task number;
 3. Description - Task description that will be execute;
 
